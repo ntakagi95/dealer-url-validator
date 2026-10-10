@@ -1,0 +1,312 @@
+{
+  "origin": "Legacy checker provider hints; predictions require live page verification.",
+  "providers": [
+    {
+      "name": "OADD",
+      "footprints": [
+        "oadd-dealer-id",
+        "oadd-client-id",
+        "oneaudi-falcon"
+      ]
+    },
+    {
+      "name": "Porsche",
+      "footprints": [
+        "cdn.ui.porsche.com",
+        "finder.porsche.com",
+        "porschedigital"
+      ]
+    },
+    {
+      "name": "Dealer Masters",
+      "footprints": [
+        "roadster-sn-embed.js"
+      ]
+    },
+    {
+      "name": "DealerFire",
+      "footprints": [
+        "dealerfire.com",
+        "window.df_"
+      ]
+    },
+    {
+      "name": "Dealer Inspire",
+      "footprints": [
+        "dealerinspire.com",
+        "window.dealerinspire",
+        "dealer inspire",
+        "visit http://www.dealerinspire.com",
+        "inspire your visitors and turn them into customers"
+      ]
+    },
+    {
+      "name": "Motive",
+      "footprints": [
+        "ridemotive.com",
+        "providerid=motive"
+      ]
+    },
+    {
+      "name": "Dealer Alchemist",
+      "footprints": [
+        "dealeralchemist.com",
+        "dealervenom.com",
+        "dv-framework"
+      ]
+    },
+    {
+      "name": "NabThat",
+      "footprints": [
+        "nabthat.com",
+        "connect.nabthat.com",
+        "providerid\" content=\"nabthat"
+      ]
+    },
+    {
+      "name": "Remora",
+      "footprints": [
+        "remorainc.com"
+      ]
+    },
+    {
+      "name": "Intice",
+      "footprints": [
+        "inticeinc.com",
+        "tools.intice.com"
+      ]
+    },
+    {
+      "name": "Dealer.com",
+      "footprints": [
+        "dealer.com",
+        "ddc.datameta",
+        "window.ddc",
+        "providerid\" content=\"ddc"
+      ]
+    },
+    {
+      "name": "DealerOn",
+      "footprints": [
+        "dealeron.com",
+        "dealeron"
+      ]
+    },
+    {
+      "name": "Dealer eProcess",
+      "footprints": [
+        "dealereprocess.com",
+        "cdn.dealereprocess.org",
+        "dep.com"
+      ]
+    },
+    {
+      "name": "CDK",
+      "footprints": [
+        "cdkglobal.com",
+        "cobalt.com"
+      ]
+    },
+    {
+      "name": "Sincro",
+      "footprints": [
+        "sincro"
+      ]
+    },
+    {
+      "name": "Fox Dealer",
+      "footprints": [
+        "foxdealer.com",
+        "fox dealer"
+      ]
+    },
+    {
+      "name": "Team Velocity",
+      "footprints": [
+        "teamvelocitymarketing.com",
+        "teamvelocityportal.com",
+        "tvmwebsitecdn.com",
+        "tvmimageservice.com"
+      ]
+    },
+    {
+      "name": "Motoinsight",
+      "footprints": [
+        "motoinsight.com"
+      ]
+    },
+    {
+      "name": "AutoFi",
+      "footprints": [
+        "autofi.com"
+      ]
+    },
+    {
+      "name": "Jazel Auto",
+      "footprints": [
+        "jazelc.com",
+        "jazel.net",
+        "jazelready",
+        "window.jzla5p",
+        "/jzl-core/"
+      ]
+    },
+    {
+      "name": "Sokal",
+      "footprints": [
+        "gosokal.com",
+        "sokalinc.com",
+        "sokal-logo"
+      ]
+    },
+    {
+      "name": "AutoGO",
+      "footprints": [
+        "autogo-cdn.com",
+        "autogo.com"
+      ]
+    },
+    {
+      "name": "Space Auto",
+      "footprints": [
+        "spaceauto.com"
+      ]
+    }
+  ],
+  "blueprints": {
+    "dealer.com": [
+      "/new-inventory/index.htm"
+    ],
+    "dealer inspire": [
+      "/new-vehicles/",
+      "/new-inventory/"
+    ],
+    "dealeron": [
+      "/new-vehicles/",
+      "/searchnew.aspx"
+    ],
+    "dealer eprocess": [
+      "/search/new-{brand}/?tp=new",
+      "/new-vehicles/",
+      "/searchnew.aspx"
+    ],
+    "sincro": [
+      "/VehicleSearchResults?search=new"
+    ],
+    "fox dealer": [
+      "/new-vehicles/"
+    ],
+    "cdk": [
+      "/new-inventory/index.htm",
+      "/new-vehicles/",
+      "/inventory/new"
+    ],
+    "team velocity": [
+      "/inventory/new",
+      "/new-vehicles/",
+      "/new-inventory/"
+    ],
+    "motoinsight": [
+      "/new/",
+      "/new-inventory/"
+    ],
+    "oadd": [
+      "/en/inventory/new/",
+      "/inventory/new/"
+    ],
+    "porsche": [
+      "/en/inventory/porsche/search?condition=new",
+      "/inventory/porsche/search?condition=new"
+    ],
+    "dealerfire": [
+      "/new-vehicles/",
+      "/new-inventory/"
+    ],
+    "dealer masters": [
+      "/new-inventory/",
+      "/new-vehicles/"
+    ],
+    "motive": [
+      "/cars/new-inventory",
+      "/new-vehicles",
+      "/new-vehicles/",
+      "/collections/new-inventory"
+    ],
+    "dealer alchemist": [
+      "/new-vehicles/",
+      "/new-inventory/"
+    ],
+    "nabthat": [
+      "/inventory/new",
+      "/new-vehicles/"
+    ],
+    "remora": [
+      "/inventory/new",
+      "/new-vehicles/"
+    ],
+    "intice": [
+      "/new-vehicles/",
+      "/new-inventory/"
+    ],
+    "jazel": [
+      "/inventory/new-vehicles/",
+      "/new-vehicles/"
+    ],
+    "sokal": [
+      "/newvehicles",
+      "/new-vehicles/"
+    ],
+    "autogo": [
+      "/new-vehicles/",
+      "/new-inventory/"
+    ],
+    "space auto": [
+      "/cars/new/",
+      "/cars/new-inventory",
+      "/new-vehicles/"
+    ]
+  },
+  "generic_paths": [
+    "/new-vehicles/",
+    "/new-inventory/index.htm",
+    "/inventory/new",
+    "/newvehicles",
+    "/inventory/new-vehicles/",
+    "/cars/new/",
+    "/new/",
+    "/searchnew.aspx",
+    "/VehicleSearchResults?search=new"
+  ],
+  "brand_prefixes": {
+    "AC": "Acura",
+    "AU": "Audi",
+    "BM": "BMW",
+    "BU": "Buick",
+    "CA": "Cadillac",
+    "CH": "Chevrolet",
+    "CR": "Chrysler",
+    "DO": "Dodge",
+    "FD": "Ford",
+    "GE": "Genesis",
+    "GM": "GMC",
+    "HD": "Honda",
+    "HY": "Hyundai",
+    "IN": "INFINITI",
+    "JA": "Jaguar",
+    "JE": "Jeep",
+    "KI": "Kia",
+    "LE": "Lexus",
+    "LI": "Lincoln",
+    "LR": "Land Rover",
+    "MB": "Mercedes-Benz",
+    "MI": "MINI",
+    "MZ": "Mazda",
+    "NI": "Nissan",
+    "PR": "Porsche",
+    "RA": "Ram",
+    "SU": "Subaru",
+    "TO": "Toyota",
+    "VO": "Volvo",
+    "VW": "Volkswagen"
+  }
+}

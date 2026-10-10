@@ -1,0 +1,2 @@
+-r dealer-url-validator/requirements-browser.txt
+PyYAML==6.0.3

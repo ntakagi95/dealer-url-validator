@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dealer URL Validator"
+  short_description: "Choose verified dealer homepages and new inventory"
+  default_prompt: "Use $dealer-url-validator to validate this dealer CSV and recommend the homepage and full new-inventory URL, preferring confirmed brand scope and allowing a verified all-new fallback."

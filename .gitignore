@@ -1,0 +1,10 @@
+.venv*/
+__pycache__/
+*.pyc
+runs/
+*.csv
+*.zip
+.env*
+dealer-url-validator/references/learned-routes.json
+dealer-url-validator/references/browser-history.json
+dealer-url-validator/references/manual-reviews.json
